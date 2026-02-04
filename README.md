@@ -9,7 +9,7 @@
 Personal portfolio website for developer **Bekjan Temenov** showcasing skills, projects, and experience.
 
 **Pages:** Home, Projects, Architecture, Contact  
-**Tech Stack:** React + TypeScript + Vite + CSS/SCSS  
+**Tech Stack:** React + TypeScript + Vite + CSS/Tailwind  
 **State Management:** `useStore.ts`  
 **CI/CD:** GitHub Actions
 

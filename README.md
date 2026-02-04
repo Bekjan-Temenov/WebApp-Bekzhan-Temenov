@@ -1,7 +1,7 @@
 # Bekjan Temenov - Personal Website
 
 **Repository:** [GitHub](https://github.com/Bekjan-Temenov/WebApp-Bekzhan-Temenov)  
-**Demo:** https://vercel.com/bekjans-projects/web-app-bekzhan-temenov(insert live demo link, e.g., Vercel/Netlify)
+**Demo:** https://web-app-bekzhan-temenov.vercel.app
 
 ---
 

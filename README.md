@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Bekjan Temenov - Personal Website
 
-# Run and deploy your AI Studio app
+**Repository:** [GitHub](https://github.com/Bekjan-Temenov/WebApp-Bekzhan-Temenov)  
+**Demo:** https://vercel.com/bekjans-projects/web-app-bekzhan-temenov(insert live demo link, e.g., Vercel/Netlify)
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## About
+Personal portfolio website for developer **Bekjan Temenov** showcasing skills, projects, and experience.
 
-## Run Locally
+**Pages:** Home, Projects, Architecture, Contact  
+**Tech Stack:** React + TypeScript + Vite + CSS/SCSS  
+**State Management:** `useStore.ts`  
+**CI/CD:** GitHub Actions
 
-**Prerequisites:**  Node.js
+---
+
+## Project Structure
+
+/components - UI components
+/pages - Website pages
+/store - Application state
+/types.ts - TypeScript types
+/constants.ts - Project constants
+App.tsx - Main component
+index.tsx - Entry point
+vite.config.ts - Vite config
+.github/workflows/ci.yml - CI config
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## Setup
+
+```bash
+# Clone repository
+git clone https://github.com/Bekjan-Temenov/WebApp-Bekzhan-Temenov.git
+cd WebApp-Bekzhan-Temenov
+
+# Install dependencies
+npm ci
+
+# Run dev server
+npm run dev
+
+# Build for production
+npm run build
+
+# Lint & test
+npm run lint
+npm test
